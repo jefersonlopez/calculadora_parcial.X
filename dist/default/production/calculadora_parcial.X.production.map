@@ -1,0 +1,55 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Mar 23 08:12:04 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00009e
+                   .cinit    romdata   0x00004f    program   0x000004
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN_CA       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/MAIN_CA       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000050      
+                            0x002007    0x002008      
+            83 out of 8455 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   inicio   0x000002    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+multiplicacion_calculadora   0x00004c    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\multiplicacion_calculadora.inc
+                      op1   0x000023    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+                      op2   0x000027    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+                      op3   0x00002a    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+                      op4   0x00002d    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+                 osc_conf   0x000030    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\configuracion.inc
+                port_conf   0x000037    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\configuracion.inc
+        resta_calculadora   0x000049    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\resta_calculadora.inc
+                  revisar   0x000002    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+         suma_calculadora   0x000046    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\suma_calculadora.inc
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   inicio   0x000002    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+                  revisar   0x000002    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+                      op1   0x000023    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+                      op2   0x000027    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+                      op3   0x00002a    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+                      op4   0x00002d    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\main_calculadora.asm
+                 osc_conf   0x000030    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\configuracion.inc
+                port_conf   0x000037    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\configuracion.inc
+         suma_calculadora   0x000046    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\suma_calculadora.inc
+        resta_calculadora   0x000049    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\resta_calculadora.inc
+multiplicacion_calculadora   0x00004c    program     static C:\proyectos micro_c\calculadora_parcial\calculadora_parcial.X\multiplicacion_calculadora.inc
+
+
